@@ -1,52 +1,194 @@
-search{
-    width: 330px;
-    float:left;
-    margin-left: 270px;
+.body{
+    background-color: rgb(255, 255, 255);
 }
 
-.search{
-    font-family:Arial, Helvetica, sans-serif;
-    width: 200px;;
-    height: 40px;
-    background-color: #1d0f04;
-    border: 1px solid;
+.prompt-regular {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p{
+    font-family:"Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
 }
 
-.menu_bar{
-    background-color: beige;
-    width: 80px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
+h2{
+    font-family:"Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h4{
+    font-family:"Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
 }
 
 .logo{
-    color: #000000;
-    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
 }
 
-.logo span{
-    color: rgb(190, 128, 13);
+
+
+.font{
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.banner{
-    size: 100%;
+.font-2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    left: 400px;
+    right: 700px;
+    width: 50%;
+  }
+
+  .text{
+    position: relative;
+    bottom: 5px;
+    left: 400px;
+    color: black;
+    size: 10em;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+h3{
+    text-align: center;
+    margin-right: 10%;
+    font-weight: bolder;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
     align-items: center;
-    border-color: yellow;
-}
-.img-book{
-    size: 50px;
-    align-items: baseline;
+    justify-content: center;
+    gap: 5em;
+    color: black;
 }
 
-
-.my-border{
-    border-color: black;
-
+h1{
+    font-family:"Prompt", sans-serif;
+    font-size: 5em;
+    font-weight: bolder;
+}
+.logo{
+    width: 200px;
+    height: 90px;
+    align-items: center;
 }
 
-body{
-    background-color: deeppink;
+.tap-bar{
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.inline{
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color:black
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 60px 20px 10px;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0px 5px;
+}
+
+
+.topbar{
+    text-align: center;
+    right: 50px;
+    size: 2em;
+}
+
+.name{
+    text-align: center;
+    font-size: medium;
+}
+
+.reviewnav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.reviewnav ul{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    color: black;
+}
+
+.date{
+    text-align: center;
 }
