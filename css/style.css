@@ -192,3 +192,8 @@ section{
 .date{
     text-align: center;
 }
+
+.style{
+    text-align: center;
+    font-size: larger;
+}
